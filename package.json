@@ -19,5 +19,6 @@
   "bugs": {
     "url": "https://github.com/OConnell-Coder/readme-generator/issues"
   },
-  "homepage": "https://github.com/OConnell-Coder/readme-generator#readme"
+  "homepage": "https://github.com/OConnell-Coder/readme-generator#readme",
+  "devDependencies": {}
 }
