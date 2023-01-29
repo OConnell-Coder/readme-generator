@@ -4,7 +4,7 @@ function generateMarkdown(data) {
   output = `
 # ${data.title}
 
-${data.license == 'none' ? "" : `![${data.license}](https://img.shields.io/badge/License-${data.license}-blue)`}
+${data.license == 'None' ? "" : `![${data.license}](https://img.shields.io/badge/License-${data.license}-blue)`}
 
 ## Description
 
@@ -16,6 +16,9 @@ ${data.description}
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
+- [Features](#features)
+- [Questions](#questions)
+- [Tests](#tests)
 
 ## Installation
 
@@ -27,7 +30,7 @@ ${data.usage}
 
 ## Credits
 
-${data.contributions}
+${data.credits}
 
 ## License
 
@@ -37,9 +40,9 @@ ${data.license}
 
 ${data.features}
 
-## How to Contribute
+## Questions
 
-I can be reached at:
+If you have any questions or would like to contribute, I can be reached at:
 #### ${data.email}
 #### ${data.github}
 

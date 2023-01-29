@@ -1,3 +1,4 @@
+
 const questions = [
     {
         type: 'input',
@@ -16,14 +17,14 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'useage',
-        message: 'Useage instructions?'
+        name: 'usage',
+        message: 'Usage instructions?'
     },
     {
         type: 'list',
         name: 'license',
         message: "Pick what license your project has.",
-        choices: ["MIT", "none"]
+        choices: ["None", "Academic Free License", "Artistic license", "Boost Software License", "Creative Commons license family", "Educational Community License", "Eclipse Public License", "GNU General Public License family", "ISC", "Microsoft Public License", "MIT", "Mozilla Public License", "Open Software License", "PostgreSQL", "The Unlicense"]
     },
     {
         type: 'input',
@@ -32,7 +33,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'contributions',
+        name: 'credits',
         message: 'Who contributed to your project?'
     },
     {
@@ -48,7 +49,7 @@ const questions = [
     {
         type: 'input',
         name: 'github',
-        message: 'What is your GitHub link?'
+        message: 'What is your GitHub user link?'
     },
 ];
 
